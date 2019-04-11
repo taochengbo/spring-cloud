@@ -6,3 +6,5 @@ spring-cloud-eureka/target/
 spring-cloud-service-admin/target/
 spring-cloud-web-admin-feign/target/
 spring-cloud-web-admin-ribbon/target/
+/spring-cloud-service-admin/spring-cloud-service-admin.iml
+/spring-cloud-web-admin-ribbon/spring-cloud-web-admin-ribbon.iml
