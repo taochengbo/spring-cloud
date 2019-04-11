@@ -1,3 +1,8 @@
 /.idea
 /spring-cloud-dependencies/spring-cloud-dependencies.iml
 /spring-cloud-eureka/spring-cloud-eureka.iml
+/spring-cloud-web-admin-feign/spring-cloud-web-admin-feign.iml
+spring-cloud-eureka/target/
+spring-cloud-service-admin/target/
+spring-cloud-web-admin-feign/target/
+spring-cloud-web-admin-ribbon/target/

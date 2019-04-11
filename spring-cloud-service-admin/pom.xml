@@ -13,7 +13,7 @@
     <artifactId>spring-cloud-service-admin</artifactId>
     <packaging>jar</packaging>
 
-    <name>spring-cloud-dependencies</name>
+    <name>spring-cloud-service-admin</name>
     <url>https://github.com/taochengbo/spring-cloud.git</url>
     <inceptionYear>2019-Now</inceptionYear>
 
