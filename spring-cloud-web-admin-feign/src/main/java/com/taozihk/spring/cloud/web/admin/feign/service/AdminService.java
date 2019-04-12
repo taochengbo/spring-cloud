@@ -1,5 +1,6 @@
 package com.taozihk.spring.cloud.web.admin.feign.service;
 
+import com.taozihk.spring.cloud.web.admin.feign.hystrix.AdminServiceHystrix;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -11,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @author taozi
  * @create 2019-04-12 22:06
  **/
-@FeignClient(value = "spring-cloud-service-admin")
+@FeignClient(value = "spring-cloud-service-admin", fallback = AdminServiceHystrix.class)
 public interface AdminService {
 
     /**
