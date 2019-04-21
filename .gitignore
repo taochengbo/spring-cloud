@@ -10,4 +10,5 @@ spring-cloud-web-admin-ribbon/target/
 /spring-cloud-web-admin-ribbon/spring-cloud-web-admin-ribbon.iml
 /spring-cloud-config/spring-cloud-config.iml
 spring-cloud-config/target/
-spring-cloud-zuul/target/
+/spring-cloud-zuul/spring-cloud-zuul.iml
+/spring-cloud-admin-client/spring-cloud-admin-client.iml

@@ -2,7 +2,12 @@
 spring:
   application:
     name: spring-cloud-eureka
-
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
+  zipkin:
+    base-url: http://localhost:9411
 server:
   port: 8761
 eureka:
@@ -15,5 +20,6 @@ eureka:
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
 
 
