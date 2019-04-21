@@ -1,5 +1,5 @@
 # spring-cloud
-This is spring-cloud project！
+This is spring-cloud project~
 #启动顺序
 1. 注册与发现
 2. 分布式配置中心
